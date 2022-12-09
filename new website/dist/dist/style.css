@@ -1,0 +1,13 @@
+body{
+    font-family:'Times New Roman', serif;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+    color:rgb(255, 255, 255);
+    background-color: blue;
+    background-size: cover;
+    background-position: center;
+  }
+
+.text-centre{
+  text-align:center;
+}
+
