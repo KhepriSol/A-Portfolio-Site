@@ -1,13 +1,101 @@
-body{
-    font-family:'Times New Roman', serif;
-    text-shadow: rgba(0,0,0,.01) 0 0 1px;
-    color:rgb(255, 255, 255);
-    background-color: blue;
-    background-size: cover;
-    background-position: center;
-  }
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Times New Roman", serif;
+  
+  text-shadow: rgba(0, 255, 21, 0.01) 0 0 1px;
+  color: rgb(0, 0, 0);
+  background-color: #080808;
+  background-size: cover;
+  background-position: center;
+}
+/*header*/
+.text-centre {
+  text-align: center;
+}
+.body-wrapper {
+  background-color: rgb(152, 152, 255);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.picheader {
+border: solid 5px blueviolet;
+  height: 250px;
+  overflow: hidden;
+}
 
-.text-centre{
-  text-align:center;
+header nav {
+  background: #9184F8;
+  color: #fff;
+  overflow: hidden;
+  padding: 10px auto;
+}
+header nav ul {
+  list-style: none;
+  overflow: hidden;
+}
+header nav ul li {
+  float: left;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+header nav ul li a {
+  color: rgb(0, 0, 0);
+  font-size: 2em;
+}
+
+
+/*main*/
+
+/*the white boxes*/
+article {
+  margin: 5px;
+  padding: 5px 0px;
+  border: solid 5px rgb(0, 0, 0);
+  padding-top: 0px;
+  background: #91C5F8;
+  overflow: hidden;
+}
+/*black title section of white boxes*/
+.title {
+  background: black;
+  color: #fff;
+  padding: 5px;
+  padding-left: 10px;
+  overflow: hidden;
+  margin: 0;
+  font-weight: bolder;
+}
+
+/*the white boxes*/
+
+/*text layout*/
+article p,
+article h1,
+article h2,
+article h3,
+article h4 {
+  padding: 0 15px;
+}
+main {
+  float: left;
+  max-width: 68%;
+}
+/*aside*/
+aside {
+  float: right;
+  max-width: 32%;
+}
+.artist{
+  padding: 0;
+
+  overflow: hidden;
+  margin: 0;
+  font-weight: bolder;
+  border: solid 5px #fff;
+}
+footer{
+	width: 100%;
+	float: left;
 }
 
