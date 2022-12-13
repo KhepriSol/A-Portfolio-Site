@@ -2,7 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Times New Roman", serif;
-  
+
   text-shadow: rgba(0, 255, 21, 0.01) 0 0 1px;
   color: rgb(0, 0, 0);
   background-color: #080808;
@@ -19,13 +19,13 @@ body {
   margin: 0 auto;
 }
 .picheader {
-border: solid 5px blueviolet;
+  border: solid 5px blueviolet;
   height: 250px;
   overflow: hidden;
 }
 
 header nav {
-  background: #9184F8;
+  background: #9184f8;
   color: #fff;
   overflow: hidden;
   padding: 10px auto;
@@ -44,7 +44,6 @@ header nav ul li a {
   font-size: 2em;
 }
 
-
 /*main*/
 
 /*the white boxes*/
@@ -53,7 +52,7 @@ article {
   padding: 5px 0px;
   border: solid 5px rgb(0, 0, 0);
   padding-top: 0px;
-  background: #91C5F8;
+  background: #91c5f8;
   overflow: hidden;
 }
 /*black title section of white boxes*/
@@ -86,7 +85,7 @@ aside {
   float: right;
   max-width: 32%;
 }
-.artist{
+.artist {
   padding: 0;
 
   overflow: hidden;
@@ -94,8 +93,23 @@ aside {
   font-weight: bolder;
   border: solid 5px #fff;
 }
-footer{
-	width: 100%;
-	float: left;
+footer {
+  width: 100%;
+  float: left;
 }
-
+/*contact.html*/
+.entry-text-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  resize: none;
+  border-radius: 2px;
+  border: solid;
+  background-color: lightgoldenrodyellow;
+  font-family: "Space Mono", monospace;
+}
+.contact-form{
+  margin: auto;
+  
+  padding: 10px;
+}
