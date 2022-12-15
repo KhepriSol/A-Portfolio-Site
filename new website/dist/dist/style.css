@@ -69,11 +69,7 @@ article {
 /*the white boxes*/
 
 /*text layout*/
-article p,
-article h1,
-article h2,
-article h3,
-article h4 {
+article p, article h1, article h2, article h3, article h4, label {
   padding: 0 15px;
 }
 main {
@@ -109,7 +105,11 @@ footer {
   font-family: "Space Mono", monospace;
 }
 .contact-form{
-  margin: auto;
   
+  margin: auto;
   padding: 10px;
+}
+.icons  {
+  width: 50px;
+ padding: 4px;
 }
